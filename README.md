@@ -14,7 +14,7 @@ This project utilizes GPT3.5 Turbo, LangChain and ChromaDB to establish a Retrie
 
 Here are some screenshots of results from the bot based on my style of texting respective messengers with some context for you:
 
-* **Context**: The sender (Puneet) had asked the user (Sahil) to contact another friend (Shubhankar) for some help the sender required. The RAG was able to understand what the sender was referring to without any reference of the subject in the message and also reply accurately based on another contact's (Bua's) messages with the user (Sahil).
+* **Context**: The sender (Puneet) had asked the user (Sahil) to contact another friend (Shubhankar) for some help the sender required. The RAG was able to understand what the sender was referring to without any reference of the subject in the message and also reply accurately based on another contact's (Shubhankar's) messages with the user (Sahil).
 
   ![Screenshot 2024-06-17 at 3 32 50 AM](https://github.com/sahilpmehra/WhatsAppRAG/assets/25867566/85d5fdb8-bcba-4de3-a1c6-ad3e1b7ad02d)
 
