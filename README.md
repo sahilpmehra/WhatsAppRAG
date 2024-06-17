@@ -34,11 +34,13 @@ Here are some screenshots of results from the bot based on my style of texting r
 
 I have used Python 3.12 to build the backbone of the bot on a Jupyter notebook. All the required dependencies for this bot can be installed using requirements.txt file.
 
+```pip install requirements.txt```
+
 In addition to the installation, you will also need a LangChain and a OpenAI API key available. Further versions will support other LLMs such as Llama3 and Gemini.
 
 Add your whatsapp chats with different contacts in the Whatsapp_Chats folder in .txt format (further versions will support other media formats).
 
-Finally, pass your message (along with sender's name) as the parameter to the rag_chain.invoke("Type Message Here") function.
+Finally, pass your message (along with sender's name) as the parameter to the ```rag_chain.invoke("Type Message Here")``` function.
 
 ## Conclusions 💯🔥
 
