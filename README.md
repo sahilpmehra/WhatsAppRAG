@@ -14,6 +14,20 @@ This project utilizes GPT3.5 Turbo, LangChain and ChromaDB to establish a Retrie
 
 Here are some screenshots of results from the bot based on my style of texting respective messengers with some context for you:
 
+* **Context**: The sender (Puneet) had asked the user (Sahil) to contact another friend (Shubhankar) for some help the sender required. The RAG was able to understand what the sender was referring to without any reference of the subject in the message and also reply accurately based on another contact's (Bua's) messages with the user (Sahil).
+
+  ![Screenshot 2024-06-17 at 3 32 50 AM](https://github.com/sahilpmehra/WhatsAppRAG/assets/25867566/85d5fdb8-bcba-4de3-a1c6-ad3e1b7ad02d)
+
+* **Context**: The sender (Cchinmayy) sends the user a message which is a mix of Hindi and English. The RAG not only understands the message but also replies uncannily similarly to how the user (Sahil) would have in this situation. The second image shows another equally plausible reply to the message (again in a mix of Hindi and English) - this can be used to provide the user with options before sending a reply.
+  
+  ![Screenshot 2024-06-17 at 3 27 19 AM](https://github.com/sahilpmehra/WhatsAppRAG/assets/25867566/bc87e1d7-098b-469c-b7ad-2dbf5efb2009)
+
+  ![Screenshot 2024-06-17 at 3 27 32 AM](https://github.com/sahilpmehra/WhatsAppRAG/assets/25867566/8612aca9-e8f9-431a-8a91-22ebe9250a8f)
+
+
+* **Context**: This is a rare case where the RAG is hallucinating. The sender (Shubham) and the user (Sahil) had plans for the evening in San Diego but the RAG replies that the user is in India instead. Further optimization of data embeddings required to mitigate such hallucinations.
+  
+  ![Screenshot 2024-06-17 at 5 03 39 AM](https://github.com/sahilpmehra/WhatsAppRAG/assets/25867566/f1944da7-f532-4211-9e8d-adb9ddaa2a8e)
 
 
 ## How to use
